@@ -1,5 +1,5 @@
 {
-  "name": "up auth and api demo",
+  "name": "jawboneUPdemo",
   "version": "0.1.0",
   "description": "up demo application",
   "dependencies": {
@@ -18,7 +18,7 @@
     "connect-mongo": "^0.4.0"
   },
   "engines": {
-	  "node": "0.10.22"
+	  "node": "0.10.22",
 	  "npm" : "1.3.11"
   }
 }
