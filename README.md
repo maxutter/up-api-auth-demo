@@ -3,7 +3,15 @@ up-api-auth-demo
 
 Demo of Jawbone UP authentication and API access using passport, node-jawbone-up and mongoose on node.  It authenticates through jawbone oauth2, pulls the users name, steps and sleep and stores the user and access token in a mongo database.
 
-To install mongo db go to http://www.mongodb.org/downloads
+TO INSTALL: npm install
+
+TO RUN: NODE_PATH=lib node app.js
+
+  - setting the PATH at runtime to support the Lib modular structure. 
+
+TO INSTALL FREE MONGO DB: http://www.mongodb.org/downloads
+
+Passport, node-jawbone-up and mongoose will install with up-api-auth-demo.
 
 For info on passport, node-jawbone-up and mongoose check out:
 
