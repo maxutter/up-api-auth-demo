@@ -2,13 +2,13 @@
 var express 	= require('express');
 var app 		= express();
 var MongoStore 	= require('connect-mongo')(express);
-var port    	= process.env.PORT || 8080;
+var port    	= process.env.PORT || 3000;
 var mongoose 	= require('mongoose');
 var passport 	= require('passport');
 var flash 	 	= require('connect-flash');
 var configDB 	= require('authentication/config/database.js');
 
-mongoose.connect('mongodb://localhost/funmotivation'); // connect to our database
+mongoose.connect('mongodb://localhost/jawboneUPdemo'); // connect to our database
 mongoose.set('debug', true);
 
 var db = mongoose.connection;
@@ -45,9 +45,9 @@ app.configure(function() {
 	// required for passport
 	app.use(express.session({
 		store: new MongoStore({
-		url: 'mongodb://localhost/funmotivation'
+		url: 'mongodb://localhost/jawboneUPdemo'
 		}),
-		secret: 'ilovescotchscotchyscotchscotch' 
+		secret: 'ilovesuppywuppyup' 
 	})); // session secret
 	app.use(passport.initialize());
 	app.use(passport.session()); // persistent login sessions
