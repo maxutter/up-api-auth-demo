@@ -11,6 +11,15 @@ TO RUN: NODE_PATH=lib node app.js
 
 TO INSTALL FREE MONGO DB: http://www.mongodb.org/downloads
 
+TO CONFIGURE:
+
+  1. Sign up for app permissions on jawbone and facebook(optional)
+  2. Configure the servers in config/auth.js to be yours
+  3. Configure the mongo db settings in app.js
+  
+  
+----------
+
 Passport, node-jawbone-up and mongoose will install with up-api-auth-demo.
 
 For info on passport, node-jawbone-up and mongoose check out:
