@@ -7,7 +7,7 @@ TO INSTALL: npm install
 
 TO RUN: NODE_PATH=lib node app.js
 
-  - setting the PATH at runtime to support the Lib modular structure. 
+  - setting the PATH at runtime is required to support the modular file structure. 
 
 TO INSTALL FREE MONGO DB: http://www.mongodb.org/downloads
 
